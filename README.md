@@ -32,7 +32,7 @@
         
 #### 说明
 
-@Subscribe(threadMode = ThreadMode.MAIN) 不设置这个参数默认是POSTING 和发起事件通知是同一个线程 ThreadMode.MAIN 不管发起事件通知是子线程还是主线程都切换至主线程  ThreadMode.BACKG 不管发起事件通知是子线程还是主线程都切换至子线程通知  要想被通知到 必须发起post 参数类型 和被注解方法的参数类型一致  才能被通知到
+@Subscribe(threadMode = ThreadMode.MAIN) 不设置这个参数默认是POSTING 和发起事件通知是同一个线程 ThreadMode.MAIN 不管发起事件通知是子线程还是主线程都切换至主线程  ThreadMode.BACKG 不管发起事件通知是子线程还是主线程都切换至子线程通知  <font color="#ff0000">要想被通知到 必须发起post 参数类型 和被注解方法的参数类型一致  才能被通知到</font><br /> 
 
 #### jar包下载地址
 
