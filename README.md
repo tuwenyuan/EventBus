@@ -33,3 +33,7 @@
 #### 说明
 
 @Subscribe(threadMode = ThreadMode.MAIN) 不设置这个参数默认是POSTING 和发起事件通知是同一个线程 ThreadMode.MAIN 不管发起事件通知是子线程还是主线程都切换至主线程  ThreadMode.BACKG 不管发起事件通知是子线程还是主线程都切换至子线程通知
+
+#### jar包下载地址
+
+https://github.com/tuwenyuan/EventBus/blob/master/myeventbus.jar
